@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Nikey's Skincare</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #fff0f5;
+            color: #333;
+        }
+
+        /* HEADER */
+        header {
+            background-image:
+            linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),url("img/header.jpg");
+
+         background-size: cover;
+         background-position: center;
+         background-repeat: no -repeat;
+
+        color: white;
+       text-align: center;
+
+            padding: 120px 20px;
+        }
+
+        /* NAVIGASI */
+        nav {
+            background-color: #ffb6c1;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ff1493;
+        }
+
+        /* KONTEN UTAMA */
+        .konten {
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* DUS PRODUK */
+        .produk {
+            background-color: white;
+            border: 2px solid #ffb6c1;
+            border-radius: 10px;
+            width: 230px;
+            padding: 15px;
+            margin: 10px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .produk img {
+            width: 100%;
+            height: 160px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        .harga {
+            color: #d87093;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .tombol-beli {
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .tombol-beli:hover {
+            background-color: #ff1493;
+        }
+
+        /* IFRAME / VIDEO */
+        .area-iframe {
+            background-color: white;
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 10px;
+            border: 2px solid #ffb6c1;
+        }
+
+        iframe {
+            border-radius: 8px;
+            border: none;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: #ff69b4;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. HEADER -->
+    <header>
+        <h1> Nikey's Skincare</h1>
+        <p> Lindungi Kulitmu, Gunakan Skincare!</p>
+    </header>
+
+    <!-- 2. NAVIGASI -->
+    <nav>
+        <a href="home.html" target="konten">Home</a>
+        <a href="Profile.html" target="konten">Profil</a>
+        <a href="Kontak.html" target="konten">Kontak</a>
+        <a href="Product.html" target="konten">Produk</a>
+    </nav>
+
+    <!-- Products Dropdown -->
+    <div class="dropdown">
+
+        <!-- KATALOG PRODUK -->
+        <h2 id="katalog">Produk Pilihan Kami</h2>
+
+        <div class="produk">
+            <img src="img/g2g.jpg"
+            <h3>Glad2Glow</h3>
+            <p class="harga">Rp 450.000</p>
+            <p>.</p>
+            <button class="tombol-beli">Beli Sekarang</button>
+        </div>
+
+        <div class="produk">
+            <img src="img/scora.jpg"
+            <h3>Scora</h3>
+            <p class="harga">Rp 245.000</p>
+            <button class="tombol-beli">Beli Sekarang</button>
+        </div>
+
+        <div class="produk">
+            <img src="img/skintific.jpgg"
+            <h3>Skintific</h3>
+            <p class="harga">Rp 550.000</p>
+            <button class="tombol-beli">Beli Sekarang</button>
+        </div>
+ 
+
+    <!-- FOOTER -->
+    <footer id="kontak">
+        <p>Hubungi Kami: 0812-3456-789             | Instagram: @nikeysaclara_</p>
+        <p>&copy; 2026 Skincare</p>
+    </footer>
+
+</body>
+</html>

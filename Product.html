@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products</title>
+    <style>
+        body {
+            background-color: pink;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 30px 15px;
+            margin: 0;
+        }
+
+        .judul-halaman {
+            color: black;
+            font-size: 28px;
+            margin-bottom: 25px;
+        }
+
+        /* Container Pembungkus Kartu Produk */
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        /* Kartu Produk Setema dengan .kotak */
+        .product-card {
+            background-color: white;
+            width: 260px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 5px 15px gray;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 12px;
+            border: 1px solid #d5f5f1;
+        }
+
+        .product-card h3 {
+            color: pink;
+            font-size: 20px;
+            margin: 8px 0;
+        }
+
+        .price {
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            background-color: pink;
+            padding: 6px;
+            border-radius: 6px;
+            margin: 6px 0 12px 0;
+        }
+
+        .description {
+            color: white;
+            font-size: 13px;
+            background-color: pink;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            line-height: 1.4;
+            flex-grow: 1;
+        }
+
+        .btn-buy {
+            background-color: pink;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 14px;
+            transition: 0.2s;
+            width: 100%;
+        }
+
+        .btn-buy:hover {
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+
+<h1 class="judul-halaman">Product Kami</h1>
+
+<div class="product-skincare">
+
+    <!-- Produk 1 -->
+    <div class="product-card">
+        <img src="g2g.jpg" alt="Glag2Glow">
+        <h3>Glad2Glow</h3>
+        <p class="price">Rp 450.000</p>
+        <button class="btn-buy">Beli / Hubungi</button>
+    </div>
+  
+      <!-- Produk 2 -->
+    <div class="product-card">
+        <img src="scora.jpg" alt="Scora">
+        <h3>Scora</h3>
+        <p class="price">Rp 245.000</p>
+        <button class="btn-buy">Beli / Hubungi</button>
+    </div>
+  
+     <!-- Produk 3 -->
+    <div class="product-card">
+        <img src="skintific.jpgg" alt="Skintific">
+        <h3>Skintific</h3>
+        <p class="price">Rp 550.000</p>
+        <button class="btn-buy">Beli / Hubungi</button>
+    </div>
+ 
+
+
+</div>
+
+</body>
+</html>
